@@ -1,0 +1,249 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body{
+	font-family: open sans;
+	font-size: 14px;
+}
+.clear{
+	overflow: hidden;
+}
+.header{height: 60px;}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo{float: left;}
+.logo h2 {
+  font-size: 30px;
+  padding-top: 7px;
+}
+.mainMenu{float: right;}
+.mainMenu ul{margin: 0;padding: 0;list-style: none;}
+.mainMenu ul li{display: inline-block;}
+.mainMenu ul li a {
+  color: #444;
+  display: block;
+  font-size: 15px;
+  margin-left: 22px;
+  padding-top: 19px;
+  text-decoration: none;
+}
+.mainMenu ul li a:hover{
+	color: #5ba69b;
+	border-bottom: 2px solid #5ba69b;
+}
+#active{
+	color: #5ba69b;
+	border-bottom: 2px solid #5ba69b;
+}
+.slider {
+  background: rgba(0, 0, 0, 0) url("images/blogging-336376_960_720.jpg") no-repeat scroll center center / cover ;
+  height: 450px;
+}
+.sliderText {
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  border-radius: 50px;
+  color: #fff;
+  margin: 166px auto auto;
+  padding: 15px 30px;
+  text-align: center;
+  width: 447px;
+}
+.sliderText h2 {
+  font-size: 34px;
+}
+.sliderText p {
+  font-size: 15px;
+  padding-bottom: 6px;
+}
+span{color: #5ba69b;}
+.featuredArea {
+  padding: 30px 0;
+  padding-bottom: 79px;
+}
+.all_features{}
+.singleFeature {
+  float: left;
+  text-align: center;
+  width: 32%;
+}
+.featurTOP {
+  margin-bottom: 27px;
+  margin-top: 17px;
+  padding-right: 43px;
+  text-align: center;
+}
+.featurTOP h2{
+
+}
+.featurTOP p {
+  color: #444;
+  font-size: 13px;
+}
+.singleFeature i {
+  font-size: 41px;
+  color: #5ba69b;
+}
+.singleFeature h2 {
+  font-size: 16px;
+  padding: 17px 0;
+}
+.singleFeature p {
+  font-size: 13px;
+  padding: 0 5px;
+}
+
+.downloadArea {
+  background: #777 none repeat scroll 0 0;
+}
+.downloadLeft{width: 50%;float: left;}
+.downloadLeft img {
+  margin-bottom: -6px;
+  padding-top: 22px;
+  width: 335px;
+}
+.downloadRight{width: 50%;float: right;
+text-align: center;color: #fff;}
+.downloadRight p {
+  font-size: 14px;
+  padding-top: 12px;
+}
+.downloadRight h2 {
+  font-size: 34px;
+  margin-top: 125px;
+}
+.downloadRight i {
+  background: #438bae none repeat scroll 0 0;
+  border-radius: 50px;
+  font-size: 28px;
+  height: 35px;
+  margin: 20px 5px;
+  padding: 6px;
+  width: 35px;
+}
+.downloadRight a{
+  color: #fff;
+}
+.{}
+
+
+.notifyArea{background: #e2e2e2;}
+.notifyLeft {
+  color: #333;
+  float: left;
+  padding: 47px 0;
+  width: 50%;
+}
+.notifyLeft h2 {
+  color: #444;
+  font-size: 18px;
+  padding-bottom: 11px;
+  padding-top: 23px;
+}
+.notifyLeft p {
+  font-size: 13px;
+  line-height: 21px;
+  margin-right: 10px;
+  padding-bottom: 23px;
+  padding-top: 10px;
+}
+.notifyLeft input[type="email"] {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px 0 0 12px;
+  font-size: 15px;
+  padding: 10px 10px 10px 16px;
+  width: 276px;
+}
+.notifyLeft input[type="submit"] {
+  background: #5ba69b none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0 12px 12px 0;
+  color: #fff;
+  font-size: 15px;
+  margin-left: -5px;
+  padding: 11px 25px;
+}
+.notifyright{width: 50%;float: right;}
+.notifyright img {
+  background: #f2f2f2 none repeat scroll 0 0;
+  border: 1px solid #5ba69b;
+  border-radius: 10px;
+  height: 250px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  padding: 7px;
+  width: 96%;
+}
+.clientTouchArea{text-align: center;}
+.quote{width: 700px;margin: auto;}
+.quote i{}
+.quote p {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 36px;
+}
+.quote h3 {
+  font-size: 14px;
+  padding-top: 8px;
+  margin-bottom: 25px;
+}
+.quote span {
+  color: #5c867b;
+  font-size: 22px;
+}
+.clientIMG {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+.clientIMG img {
+  height: 60px;
+  margin-left: 3px;
+  width: 50px;
+}
+.getinTouch{margin-bottom: 40px;}
+.touchArea{}
+.touchArea h2 {
+  color: #333;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.touchArea p {
+  color: #444;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.touchArea i {
+  background: #c4c4c4 none repeat scroll 0 0;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 2px;
+  padding: 6px;
+  width: 20px;
+}
+.touchArea i:hover{
+  background: #5c867b;
+}
+.footer {
+  background: #e2e2e2 none repeat scroll 0 0;
+  text-align: center;
+  color: #444;
+}
+.footer a {
+  color: #444;
+  display: inline-block;
+  padding: 23px 15px 5px;
+  text-decoration: none;
+}
+.footer p {
+  color: #999;
+  font-size: 14px;
+  padding-bottom: 14px;
+}
+.{}
+.{}
+.{}
